@@ -1,17 +1,12 @@
 # Fichiers et dossiers générés par Django
 *.pyc
 __pycache__/
-myvenv/
 db.sqlite3
 /staticfiles/
 /media/
 
-# Environnement virtuel (par exemple, créé avec virtualenv ou venv)
-venv/
+# Environnement virtuel
 .env
-
-# Fichiers spécifiques à l'IDE (par exemple, PyCharm)
-.idea/
 
 # Fichiers de sauvegarde
 *.bak
