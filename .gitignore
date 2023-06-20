@@ -1,1 +1,41 @@
+# Fichiers et dossiers générés par Django
+*.pyc
+__pycache__/
+myvenv/
+db.sqlite3
+/staticfiles/
+/media/
+
+# Environnement virtuel (par exemple, créé avec virtualenv ou venv)
+venv/
 .env
+
+# Fichiers spécifiques à l'IDE (par exemple, PyCharm)
+.idea/
+
+# Fichiers de sauvegarde
+*.bak
+*.swp
+*~
+
+# Fichiers de configuration locaux
+local_settings.py
+
+# Fichiers de journalisation
+logs/
+
+# Fichiers de documentation générés
+/docs/_build/
+
+# Fichiers de cache
+*.cache
+
+# Fichiers de sauvegarde de déploiement
+deploy_backup/
+
+# Fichiers de configuration spécifiques au déploiement
+deploy_settings.py
+
+# Dossiers spécifiques à certains outils (par exemple, Poetry ou Pipenv)
+.poetry/
+.pipenv/
