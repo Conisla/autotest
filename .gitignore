@@ -1,6 +1,7 @@
 # Fichiers et dossiers générés par Django
 *.pyc
 __pycache__/
+migrations/
 db.sqlite3
 /staticfiles/
 /media/
