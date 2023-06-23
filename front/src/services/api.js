@@ -1,19 +1,16 @@
 import axios from 'axios'
 
-// Création d'une instance d'axios avec l'URL de base de votre API
-const apiClient = axios.create({
-  baseURL: 'http://localhost:8000/api', // remplacez ceci par l'URL de base de votre API Django
-//   withCredentials: false,
-//   headers: {
-//     Accept: 'application/json',
-//     'Content-Type': 'application/json'
-//   }
-})
+const baseURL = 'http://localhost:8000/api';
+
 
 const GameService = {
   // Méthode pour récupérer tous les jeux
   getGames() {
-    return apiClient.get('/jeu')
+    try {
+        return axios.get(baseURL + '/jeu')
+    } catch (error) {
+        console.log(error);
+    }
   },
 
   // Méthode pour récupérer un jeu spécifique par son ID

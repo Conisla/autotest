@@ -6,8 +6,8 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: Tableview
+      name: 'Tableview',
+      component: TableView
     },
   ]
 })
